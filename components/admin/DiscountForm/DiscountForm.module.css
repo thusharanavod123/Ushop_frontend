@@ -1,0 +1,9 @@
+.rel_pos{
+    position: relative;
+}
+
+.absolut_pos{
+    position: absolute;
+    right: 4px;
+    top: 1px;
+}

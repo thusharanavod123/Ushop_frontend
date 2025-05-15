@@ -1,0 +1,7 @@
+.pos_absolute{
+    position: absolute;
+}
+
+.nav_border{
+    border-bottom: solid #00000008 1px;
+}

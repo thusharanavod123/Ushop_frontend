@@ -1,0 +1,206 @@
+@config "../tailwind.config.ts";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --bg-green: #28A745;
+  --bg-green-hover: #228e3b;
+  --bg-red: #DC3545;
+  --bg-red-hover: #b92c3a;
+  --bg-report-pending: #868E96;
+  --bg-report-confirmed: #17A2B8;
+  --bg-report-delivered: #28A745;
+  --bg-report-canceled: #DC3545;
+  --bg-client-progress: #4CAE1B;
+  --bg-client-progress-border: #5ed024;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+button {
+  border: 1px solid var(--bg-green);
+  border-radius: 6px;
+  transition: 0.15s all;
+  color: var(--bg-green);
+}
+
+.brder-btn:hover {
+  background-color: var(--bg-green-hover) !important;
+}
+
+.bg-custom-green {
+  background-color: var(--bg-green);
+}
+
+.bg-custom-green:hover {
+  background-color: var(--bg-green-hover);
+}
+
+.bg-custom-green-cat {
+  background-color: var(--bg-client-progress);
+}
+
+.bg-custom-green-cat:hover {
+  background-color: var(--bg-client-progress);
+}
+
+.bg-custom-green-cat-border {
+  border: var(--bg-client-progress) solid 1px;
+  color: var(--bg-client-progress);
+}
+
+
+.bg-custom-red {
+  background-color: var(--bg-red);
+}
+
+.bg-custom-red:hover {
+  background-color: var(--bg-red-hover);
+}
+
+.brder-btn:active {
+  background-color: var(--bg-green-hover) !important;
+}
+
+.text-custom-green {
+  color: var(--bg-report-delivered);
+}
+
+.w-125 {
+  width: 125px;
+}
+
+.w-190 {
+  width: 190px;
+}
+
+.font-status {
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.border-btn {
+  border: 1px solid var(--bg-green);
+  border-radius: 6px;
+  transition: 0.15s all;
+  color: var(--bg-green);
+}
+
+@media (max-width:1024px) {
+  .min-table-width {
+    min-width: 100vw;
+  }
+}
+
+/* Apply to the entire document */
+::-webkit-scrollbar {
+  width: 10px;
+  /* Adjust scrollbar width as desired */
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+  /* Track background color */
+  border-radius: 100px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #28A745;
+  /* Thumb color */
+  border-radius: 100px;
+
+}
+
+
+.trans {
+  max-height: 75px;
+  overflow: hidden;
+  transition: 0.2s all;
+}
+
+.max-trans {
+  max-height: 100%;
+}
+
+.bg-pending {
+  background: var(--bg-report-pending);
+}
+
+.bg-confirmed {
+  background: var(--bg-report-confirmed);
+}
+
+.bg-delivered {
+  background: var(--bg-report-delivered);
+}
+
+.bg-canceled {
+  background: var(--bg-report-canceled);
+}
+
+.nav-trans {
+  max-height: 75px;
+  /* overflow: hidden; */
+  transition: 0.2s all;
+}
+
+.max-nav-trans {
+  max-height: 100%;
+}
+
+.menu-style {
+  z-index: 9999;
+  position: sticky;
+}
+
+.store-card {
+  bottom: -15%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facebook {
+  background-color: #1877F2;
+}
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.client-active {
+  background-color: var(--bg-client-progress);
+  border: var(--bg-client-progress-border) solid 3px;
+}
+
+.client-active-txt {
+  color: var(--bg-client-progress);
+}
+
+.mt-m-5::after {
+  margin-top: -20px;
+}
+
+.font-9 {
+  font-size: 9px;
+}
+
+.font-10 {
+  font-size: 10px;
+}
+
+.bottom-cart {
+  bottom: 90px;
+}
+
+.mb-95{
+  margin-bottom: 95px;
+}

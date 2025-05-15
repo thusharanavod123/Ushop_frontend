@@ -1,0 +1,26 @@
+.img_container{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.otp_label{
+    text-align: center;
+    font-weight: 600;
+}
+
+.country_code_w{
+    width: 62px;
+}
+
+.phone_input{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_container_reg{
+    width: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}

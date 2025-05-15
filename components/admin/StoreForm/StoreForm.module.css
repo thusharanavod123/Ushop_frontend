@@ -1,0 +1,12 @@
+.store_media{
+    height: 190px;
+    align-items: start;
+}
+
+.store_url{
+    width: 95px;
+}
+
+.store_url_input{
+    width: calc(100% - 95px);
+}
